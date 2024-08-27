@@ -5,7 +5,7 @@
     {
       "src": "email-frontend/package.json",
       "use": "@vercel/static-build",
-      "config": { "outputDirectory": "email-frontend/dist" }
+      "config": { "distDir": "email-frontend/dist" }
     }
   ],
   "routes": [
