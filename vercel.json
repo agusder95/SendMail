@@ -1,7 +1,7 @@
 {
   "version": 2,
   "builds": [
-    /*{ "src": "email-backend/server.js", "use": "@vercel/node" },*/
+    
     {
       "src": "email-frontend/package.json",
       "use": "@vercel/static-build",
@@ -9,7 +9,7 @@
     }
   ],
   "routes": [
-    /*{ "src": "/api/(.*)", "dest": "email-backend/server.js" },*/
+   
     { "src": "/(.*)", "dest": "email-frontend/dist/$1" }
   ]
 }
